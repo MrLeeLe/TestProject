@@ -36,7 +36,7 @@ Out scope and being considered later:
     - Maven
     - Github
   
-## Setup
+## Setup run scripts
 -	Download and install Eclipse for Java developer at https://www.eclipse.org/downloads/
 -	Download Java JDK zip file at https://www.oracle.com/eg/java/technologies/downloads/#jdk19-windows
 -	Download Chrome driver at https://chromedriver.chromium.org/downloads
@@ -45,7 +45,7 @@ Out scope and being considered later:
   ==> Check your Chrome/FF/Edge version to download the appropriate version of Webdriver
 -	Launch Eclipse, and import existing **TestProject**
 -	Configure Eclipse to point to Java JDK/bin (to run scripts cmd, need to configure JAVA_HOME and MAVEN_HOME)
--	Maven build and run scripts on eclipse
+-	Maven build and run scripts on eclipse. If you want to change browser, open file **config.properties** and change browser name
 -	Tool to create file with specific file extension and size
   https://www.windows-commandline.com/how-to-create-large-dummy-file/
 
